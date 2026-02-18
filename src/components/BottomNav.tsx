@@ -101,7 +101,7 @@ const BottomNav: React.FC = () => {
         </div>
       </div>
 
-      {/* 悬浮麦克风按钮（平安橙色） */}
+      {/* 悬浮麦克风按钮（品牌橙色） */}
       <div className="absolute left-1/2 -translate-x-1/2 -top-6">
         <button className="relative w-14 h-14 rounded-full btn-brand shadow-lg shadow-brand-500/35 flex items-center justify-center active:scale-95 transition-transform">
           <div className="mic-pulse" />

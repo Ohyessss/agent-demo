@@ -214,7 +214,7 @@ const ProductDetail: React.FC = () => {
             返回方案
           </button>
           <button className="flex-[2] py-3 rounded-2xl btn-brand text-white text-sm font-semibold shadow-md shadow-brand-400/40 active:opacity-90">
-            推荐给李平安
+            推荐给李明
           </button>
         </div>
       </div>

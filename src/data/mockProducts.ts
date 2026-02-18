@@ -1,4 +1,4 @@
-// 平安保险产品 Mock 数据
+// 保险产品 Mock 数据
 
 export interface InsuranceProduct {
   id: string;
@@ -36,9 +36,9 @@ export interface KeyBenefit {
 export const mockProducts: InsuranceProduct[] = [
   {
     id: 'ins001',
-    name: '平安添盈·臻享家医',
+    name: '添盈·臻享家医',
     shortName: '添盈·臻享家医',
-    company: '中国平安人寿',
+    company: '华安人寿',
     category: '年金险',
     subCategory: '增额终身寿+医疗服务',
     annualPremium: 100000,
@@ -61,7 +61,7 @@ export const mockProducts: InsuranceProduct[] = [
       '客户关注子女教育金，灵活领取功能直击痛点',
     ],
     description:
-      '平安添盈·臻享家医是平安人寿旗舰型年金险产品，以"财富积累+家庭医疗"双轮驱动，为中高端客群打造全生命周期保障方案。产品采用复利增值机制，同时附赠业内领先的臻享家医服务权益。',
+      '添盈·臻享家医是华安人寿旗舰型年金险产品，以"财富积累+家庭医疗"双轮驱动，为中高端客群打造全生命周期保障方案。产品采用复利增值机制，同时附赠业内领先的臻享家医服务权益。',
     keyBenefits: [
       { title: '首年保费', value: '10万/年', desc: '3年交，合计30万' },
       { title: '60岁财富', value: '80万+', desc: '保额持续增值' },
@@ -86,7 +86,7 @@ export const mockProducts: InsuranceProduct[] = [
     id: 'ins002',
     name: '金越年金红26',
     shortName: '金越年金红26',
-    company: '中国平安人寿',
+    company: '华安人寿',
     category: '年金险',
     subCategory: '增额年金险',
     annualPremium: 20000,
@@ -108,7 +108,7 @@ export const mockProducts: InsuranceProduct[] = [
       '灵活缴费期，兼顾客户现金流压力',
     ],
     description:
-      '金越年金红26是平安人寿主打的大众型年金储蓄险，以稳定增值和灵活领取为核心卖点，适合希望兼顾教育金储备和养老规划的中产家庭客群。',
+      '金越年金红26是华安人寿主打的大众型年金储蓄险，以稳定增值和灵活领取为核心卖点，适合希望兼顾教育金储备和养老规划的中产家庭客群。',
     keyBenefits: [
       { title: '年交保费', value: '2万/年', desc: '多种期限可选' },
       { title: '月领年金', value: '约1200元', desc: '从约定年龄起领' },
@@ -116,7 +116,7 @@ export const mockProducts: InsuranceProduct[] = [
       { title: '身故赔付', value: '已付保费', desc: '保障资产传承' },
     ],
     services: [
-      '平安好医生在线问诊（10次/年）',
+      '健康管家在线问诊（10次/年）',
       '健康资讯推送',
       '保单年度回顾服务',
     ],
@@ -129,9 +129,9 @@ export const mockProducts: InsuranceProduct[] = [
   },
   {
     id: 'ins003',
-    name: '平安福（2024版）',
-    shortName: '平安福2024',
-    company: '中国平安人寿',
+    name: '智享福（2024版）',
+    shortName: '智享福2024',
+    company: '华安人寿',
     category: '重疾险',
     subCategory: '终身寿险+重大疾病',
     annualPremium: 15000,
@@ -145,7 +145,7 @@ export const mockProducts: InsuranceProduct[] = [
       '轻症20种、中症10种，多次赔付不清零',
       '特定疾病额外赔付120%保额',
       '保费豁免：轻症/中症确诊即豁免后续保费',
-      '平安福系列累计服务超3000万家庭',
+      '本系列累计服务超3000万家庭',
     ],
     matchScore: 72,
     matchReasons: [
@@ -154,7 +154,7 @@ export const mockProducts: InsuranceProduct[] = [
       '20年交，年缴1.5万，现金流压力适中',
     ],
     description:
-      '平安福是平安人寿的王牌重疾险产品，连续多年全国销量第一。以全面的重疾保障和增值服务著称，为家庭经济支柱提供抵御重大疾病风险的核心保障。',
+      '智享福是华安人寿的王牌重疾险产品，连续多年全国销量第一。以全面的重疾保障和增值服务著称，为家庭经济支柱提供抵御重大疾病风险的核心保障。',
     keyBenefits: [
       { title: '重疾保额', value: '50万', desc: '120种重大疾病' },
       { title: '轻症赔付', value: '20%保额', desc: '20种轻症多次赔' },
@@ -162,7 +162,7 @@ export const mockProducts: InsuranceProduct[] = [
       { title: '身故赔付', value: '≥50万', desc: '保障资产传承' },
     ],
     services: [
-      '平安好医生问诊（不限次）',
+      '健康管家问诊（不限次）',
       '重疾绿色通道就医',
       '专属理赔管家服务',
       '全国合作医院网络优先预约',

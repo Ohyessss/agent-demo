@@ -48,9 +48,9 @@ const Header: React.FC<HeaderProps> = ({
             </button>
           ) : (
             <div className="flex items-center gap-1.5">
-              {/* 平安 Logo */}
+              {/* 品牌 Logo */}
               <div className="w-7 h-7 rounded-md bg-white flex items-center justify-center shadow-sm">
-                <span className="text-brand-500 text-xs font-black leading-none">平安</span>
+                <span className="text-brand-500 text-xs font-black leading-none">AI</span>
               </div>
             </div>
           )}

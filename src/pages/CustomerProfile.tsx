@@ -8,7 +8,7 @@ import { mockProducts } from '../data/mockProducts';
 const visitHistory = [
   {
     date: '今天 15:43',
-    action: '✅ 成功出单：平安添盈·臻享家医（年交10万）',
+    action: '✅ 成功出单：添盈·臻享家医（年交10万）',
     type: 'deal',
     icon: '🎉',
   },
@@ -26,7 +26,7 @@ const visitHistory = [
   },
   {
     date: '2026-02-03 14:00',
-    action: '首次拜访：介绍平安品牌，摸排基本需求',
+    action: '首次拜访：介绍公司品牌，摸排基本需求',
     type: 'visit',
     icon: '🤝',
   },

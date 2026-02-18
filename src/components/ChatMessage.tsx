@@ -55,7 +55,7 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message }) => {
               {/* 成交产品 */}
               <div className="bg-brand-50 rounded-xl p-3">
                 <p className="text-[10px] text-brand-600 font-medium mb-1">成交产品</p>
-                <p className="text-sm font-bold text-gray-900">平安添盈·臻享家医</p>
+                <p className="text-sm font-bold text-gray-900">添盈·臻享家医</p>
                 <p className="text-xs text-gray-500">年交10万 · 3年交 · 总保费30万</p>
               </div>
 
